@@ -4,6 +4,7 @@
 <div align="center">
 <a href="https://salrox.github.io/Cordoba-Patrimonio/" target="_blank"><img src="./img/logosinfondo.png" width="400" alt="Córdoba Patrimonio"></a>
 </div>
+
 ---
 
 ## 🏛️ About the Project
