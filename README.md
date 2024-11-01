@@ -2,7 +2,7 @@
 
 [**Córdoba Patrimonio**](https://salrox.github.io/Cordoba-Patrimonio/) is a Spanish-language website developed to highlight the **cultural, historical, and architectural heritage** of Córdoba—one of Spain's most culturally rich cities and a UNESCO World Heritage Site.
 
-![logo](logosinfondo.png)
+![logo](./img/logosinfondo.png)
 
 ---
 
