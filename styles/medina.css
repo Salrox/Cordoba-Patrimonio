@@ -47,6 +47,8 @@ nav{
     margin: 0px;
     text-align: center;
     color: white;
+    position: sticky;
+    top: 0;
 
 
 }
@@ -155,7 +157,18 @@ aside img {
     overflow: hidden;
 }
 
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 10px;
 
+}
+
+#medina{
+    box-shadow: black 0 0 4px;
+    border-radius: 10x;
+}
 
 footer{
     background-color: #003049;
@@ -165,4 +178,35 @@ footer{
     text-align: center;
     font-size: 0.9em;
     letter-spacing: 0.5px; 
+}
+
+@media (max-width:320px){
+    body{
+        max-width: 100%;
+    }
+    header{
+        font-size: 0.6em;
+    }
+    iframe{
+        width: 70vw;
+    }
+    .videopre, iframe{
+        width: 70vw;
+        height: auto;
+    }
+    #foto_cordoba{
+        align-self: center;
+        width: 50vw;
+        height: auto;
+    }
+    #logo{
+        width: 25vw;
+    }
+    .asides{
+        display: grid;
+        grid-template-areas:
+        "interes"
+        "eventos";
+        width: 90vw;
+    }
 }

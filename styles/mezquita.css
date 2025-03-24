@@ -3,6 +3,8 @@ body{
     background-color: #003049;
     padding: 0.1px;
     margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden;
 
 
 }
@@ -44,6 +46,8 @@ nav{
     margin: 0px;
     text-align: center;
     color: white;
+    position: sticky;
+    top: 0;
 
 
 }
@@ -73,13 +77,13 @@ main img{
 }
 
 aside {
-    background-color: #ae1a30b8; 
+    background-color: #669BBC; 
     width: 35vw;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
-    border: 2px solid #b04a4a; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 2px solid #022030; 
+    box-shadow: 0 4px 80px rgba(0, 0, 0, 0.2); 
     font-family: 'Georgia', serif;
 }
 
@@ -115,6 +119,13 @@ aside ul li {
     color: #4f4b46; 
 }
 
+#mezquita{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: black 0 0 4px;
+}
 aside img {
     display: block;
     margin: 0 auto 15px auto; 
@@ -134,4 +145,35 @@ footer{
     text-align: center;
     font-size: 0.9em;
     letter-spacing: 0.5px; 
+}
+
+@media (max-width:320px){
+    body{
+        max-width: 100%;
+    }
+    header{
+        font-size: 0.6em;
+    }
+    iframe{
+        width: 70vw;
+    }
+    .videopre, iframe{
+        width: 70vw;
+        height: auto;
+    }
+    #foto_cordoba{
+        align-self: center;
+        width: 50vw;
+        height: auto;
+    }
+    #logo{
+        width: 25vw;
+    }
+    .asides{
+        display: grid;
+        grid-template-areas:
+        "interes"
+        "eventos";
+        width: 90vw;
+    }
 }
